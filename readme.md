@@ -4,7 +4,7 @@
 ## About
 The random walk generator is a built-for-fun web gui for TradeSatoshi's cryptocurrency exchange. It allows users to connect their TradeSatoshi account and view balances, trade history and more. This app's main function is a random order generator which, using certain parameters, selects a random market and posts a trade order on the user's TradeSatoshi account, e.g. buys a random cryptocurrency for an amount chosen by the user. \
 \
-It's mainly written as an exercise in ReactJS. Use at own risk, I do not endorse gambling of any form. \
+It's mainly written as an exercise in ReactJS. I do not endorse gambling of any form. \
 \
 See https://tradesatoshi.com/Home/Api for more information.
 ### The idea
