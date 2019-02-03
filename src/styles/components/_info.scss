@@ -1,0 +1,27 @@
+.instructions {
+    span {
+        font-style: italic;
+    }
+}
+
+.instructions-baselist {
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    text-indent: $s-size;
+}
+.instructions-basecurrency {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.instructions-header {
+    font-weight: 550;
+}
+
+.random-walk {
+    h3 {
+        margin-top: $xl-size;
+    }
+}

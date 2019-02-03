@@ -1,0 +1,12 @@
+.buy-something {
+  white-space: nowrap;
+  display: flex;
+  @media (max-width: $desktop-breakpoint) {
+    flex-direction: column;
+    margin-bottom: $s-size;
+  }
+}
+
+.buy-something__button {
+  white-space: nowrap;
+}

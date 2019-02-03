@@ -1,0 +1,34 @@
+.input-group {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: $m-size;
+    width: 100%;
+    justify-content: space-between;
+    @media (max-width: $desktop-breakpoint) {
+        flex-direction: column;
+      }
+}
+
+.input-group__filters {
+    @extend .list-item;
+    flex-grow: 2;
+
+}
+.input-group__text {
+    height: 50px;
+    font-size: $font-size-large;
+    font-weight: 300;
+    padding: $s-size;
+    width: 15%
+}
+
+.input-group__slider {
+    @media (min-width: $desktop-breakpoint) {
+        width: 35%;
+      }
+    margin-left: $s-size;
+    margin-right: $s-size;
+    margin-top: $m-size;
+    
+}

@@ -1,0 +1,42 @@
+.button {
+    background: #888888;
+    border: 1px solid #cacccd;
+    color: white;
+    height: 50px;
+    display: inline-block;
+    font-size: $font-size-large;
+    font-weight: 300;
+    line-height: 1;
+    padding: $s-size;
+    text-decoration: none;
+}
+
+.button--link {
+  
+    border: none;
+    background: none;
+    
+    font-weight: 540;
+    font-style: italic;
+    &:hover {
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        border: none;
+    }
+    
+}
+
+.button--linknohover {
+    @extend .button--link;
+    &:hover {
+        transform: scale(1.0);
+    };
+    @media (max-width: $desktop-breakpoint) {
+        display:  none;
+      }
+    margin-right: $m-size;
+
+}
+.button--error {
+    color: black;
+}
+

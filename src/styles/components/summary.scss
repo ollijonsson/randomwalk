@@ -1,0 +1,33 @@
+.summary {
+  margin-top: $s-size;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: $s-size;
+}
+
+.summary__balance {
+  @media (max-width: $desktop-breakpoint) {
+    display:  none;
+  }
+  width: 25%;
+  line-height: 1.4;
+  white-space: nowrap;
+  align-content: stretch;
+  font-size: $font-size-medium;
+  font-weight: 300;
+  padding-right: $s-size;
+  span {
+    font-weight: 600;
+  }
+}
+.summary-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: $s-size;
+}
+
+.summary-container2 {
+  @extend .summary-container;
+  align-items: center;
+}

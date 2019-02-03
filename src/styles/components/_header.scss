@@ -1,0 +1,30 @@
+.header {
+    background: $dark-blue;
+}
+
+.header__content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size 0;
+}
+.header__title {
+    color: white;
+    text-decoration: none;
+    h1 {
+        margin: 0;
+    }
+}
+
+.header__right {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size 0;
+    line-height: 1;
+}
+.settings_image {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: $s-size/2;
+}

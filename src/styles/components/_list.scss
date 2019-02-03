@@ -1,0 +1,122 @@
+.list-header {
+    background: $off-white;
+    border: 1px solid darken($off-white, 7%);
+    color: $grey;
+    display: flex;
+    justify-content: center;
+    padding: $s-size $m-size;
+    margin-bottom: 0;
+    margin-top: 0;
+   
+}
+
+.list-body {
+    margin-bottom: $m-size;
+    @media (min-width: $desktop-breakpoint) {
+        margin-bottom: $l-size;
+    }
+}
+
+.list-item {
+    display:flex;
+    flex-direction: column;
+    &:hover {
+        background: $off-white;
+    }
+}
+
+.span1 {
+    color: green;
+    
+   }
+   .span2 {
+       color: red;
+
+   }
+
+
+
+.list-item__main {
+    border: 1px solid darken($off-white, 7%);
+    border-top: none;
+    color: $dark-grey;
+    display: flex;
+    flex-direction: row;
+    padding: $s-size;
+    text-decoration: none;
+    transition: background .3s ease;
+    
+
+    @media (min-width: $desktop-breakpoint) {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: $s-size;
+    }
+}
+
+
+.list-item--message {
+    align-items: center;
+    color: $grey;
+    justify-content: center;
+    padding: $m-size;
+
+    &:hover {
+        background: none;
+    }
+}
+
+.list-item__title {
+    padding-right: $s-size;
+    word-break: break-all;   
+
+    span {
+         font-style: bold;
+         font-weight: 600;
+
+    }
+}
+
+.list-item__subtitle {
+    color: $grey;
+    font-size: $font-size-small;
+}
+
+.list-item__sub {
+    @extend .list-item;
+    display: flex;
+    padding: $s-size;
+    flex-direction: row;
+    justify-content: space-between;
+    word-break: break-all;   
+
+   p{
+       margin-bottom: 0;
+       margin-top: 0;
+   }
+    
+
+}
+
+.list-item__data {
+    display: flex;
+    //padding: $s-size;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 400;
+    
+    @media (min-width: $desktop-breakpoint) {
+        padding-left: $s-size;
+    }
+    span {
+        font-weight: 700;
+    }
+    p {
+    
+       text-align: left;
+       margin-bottom: 0;
+       margin-top: 0;
+    }
+}
+
