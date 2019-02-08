@@ -12,7 +12,8 @@ Many theorists examine the behavior of stock prices, and the random walk hypothe
 
 ### Attention!
 For authenticating and communicating with TradeSatoshi private API services, this application needs a middleware running server-side. The app is built around Firebase and relies on Google Auth services for login and it's database for storing user credentials.
-
+### Live demo
+https://randomwalk.olafur.io/
 ### Developing with web-pack
 ```
 npm install
