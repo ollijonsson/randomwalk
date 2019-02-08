@@ -16,7 +16,7 @@ export const getFromApi = async (method, params, uid) => {
 
   return axios({
     // URL for express API
-    url: "http://localhost:5000",
+    url: "https://tradesatoshiapi.olafur.io/",
     method: "POST",
     headers: {'X-Requested-With': 'XMLHttpRequest'},
     data: {

@@ -8,6 +8,8 @@ import { getEverything, startRemoveEverything } from '../actions/trading';
 import { removeError } from '../actions/errors';
 
 // Importing components
+import SettingsPageHeader from './SettingsPageHeader';
+import AddCredentialsForm from './AddCredentialsForm';
 
 export class SettingsPage extends React.Component {
 
